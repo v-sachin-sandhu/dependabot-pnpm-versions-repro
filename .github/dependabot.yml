@@ -44,3 +44,12 @@ updates:
     open-pull-requests-limit: 5
     commit-message:
       prefix: "pnpm-12.10.1"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "engines-pnpm-gte-11.1.2"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "engines-pnpm-gte-11.1.2"
