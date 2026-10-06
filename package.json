@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "etag": "1.8.1",
-    "is-odd": "2.0.0"
+    "is-odd": "3.0.1"
   }
 }
