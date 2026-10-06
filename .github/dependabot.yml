@@ -1,0 +1,46 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "pnpm-10.22.0"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "pnpm-10.22.0"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "pnpm-10.28.2"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "pnpm-10.28.2"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "pnpm-11.1.2"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "pnpm-11.1.2"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "pnpm-11.28.5"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "pnpm-11.28.5"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "pnpm-12.10.1"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "pnpm-12.10.1"
