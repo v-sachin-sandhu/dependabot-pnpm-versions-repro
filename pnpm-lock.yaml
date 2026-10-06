@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       etag:
-        specifier: 1.0.1
-        version: 1.0.1
+        specifier: 1.8.1
+        version: 1.8.1
       is-odd:
         specifier: 2.0.0
         version: 2.0.0
 
 packages:
 
-  etag@1.0.1:
-    resolution: {integrity: sha512-UT24BZefQnjqe7po1hLOvkRz16uzIRkfFhtNfcj0mKc3PBakEv9eS7Ms68d5ueHygFtxftF9gzFiiay0eZJrOQ==}
-    engines: {node: '>= 0.8.0'}
+  etag@1.8.1:
+    resolution: {integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==}
+    engines: {node: '>= 0.6'}
 
   is-number@4.0.0:
     resolution: {integrity: sha512-rSklcAIlf1OmFdyAqbnWTLVelsQ58uvZ66S/ZyawjWqIviTWCjg2PzVGw8WUA+nNuPTqb4wgA+NszrJ+08LlgQ==}
@@ -31,7 +31,7 @@ packages:
 
 snapshots:
 
-  etag@1.0.1: {}
+  etag@1.8.1: {}
 
   is-number@4.0.0: {}
 
